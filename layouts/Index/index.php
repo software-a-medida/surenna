@@ -8,6 +8,6 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
 
 ?>
 
-<main>
-    
+<main style="height:100vh;background-color:#000;">
+
 </main>
