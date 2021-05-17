@@ -21,26 +21,25 @@
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div data-mobile-block class="col-4">
-						<nav class="p-l-10">
-							<ul class="d-flex align-items-center list-unstyled">
+						<nav>
+							<ul class="d-flex align-items-center justify-content-start list-unstyled">
 								<li><a class="btn btn-link btn-light" data-action="open_mobile_menu"><i class="fas fa-bars"></i></a></li>
 							</ul>
 						</nav>
 					</div>
 					<div class="col-4 col-md-2">
 						<figure>
-							<img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid">
+							<img src="{$path.images}logotype_light.png" alt="Logotype" class="img-fluid">
 						</figure>
 					</div>
 					<div data-desktop class="col-8 p-l-20">
 						<nav>
 							<ul class="d-flex align-items-center list-unstyled">
-								<li class="m-r-15"><a href="/" class="text-light">{$lang.home}</a></li>
-								<li class="m-r-15"><a href="#acerca-del-desarrollo" class="text-light">{$lang.about_development}</a></li>
-								<li class="m-r-15"><a href="#brochure" class="text-light">Brochure</a></li>
-								<li class="m-r-15"><a href="#contactanos" class="text-light">{$lang.contact_us}</a></li>
-								<li class="m-r-15"><a href="?lang=es" class="text-light"><strong>ES</strong></a></li>
-								<li><a href="?lang=en" class="text-light"><strong>EN</strong></a></li>
+								<li class="m-r-15"><a href="#contact" class="text-uppercase text-light">{$lang.contact}</a></li>
+								<li class="m-r-15"><a href="#brochure" class="text-uppercase text-light">Brochure</a></li>
+								<li class="m-r-15"><a href="#about" class="text-uppercase text-light">{$lang.about_development}</a></li>
+								<li class="m-r-15"><a href="?lang=es" class="text-uppercase text-light"><strong>Es</strong></a></li>
+								<li><a href="?lang=en" class="text-uppercase text-light"><strong>En</strong></a></li>
 							</ul>
 						</nav>
 					</div>
@@ -63,11 +62,10 @@
 			</nav>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
-					<li class="m-b-15"><a href="/" class="text-light">{$lang.home}</a></li>
-					<li class="m-b-15"><a href="#acerca-del-desarrollo" class="text-light">{$lang.about_development}</a></li>
-					<li class="m-b-15"><a href="#brochure" class="text-light">Brochure</a></li>
-					<li class="m-b-15"><a href="#contactanos" class="text-light">{$lang.contact_us}</a></li>
-					<li><a href="?lang=es" class="m-r-20"><strong>ES</strong></a><a href="?lang=en"><strong>EN</strong></a></li>
+					<li class="m-b-15"><a href="#contact" class="text-uppercase text-light">{$lang.contact}</a></li>
+					<li class="m-b-15"><a href="#brochure" class="text-uppercase text-light">Brochure</a></li>
+					<li class="m-b-15"><a href="#about" class="text-uppercase text-light">{$lang.about_development}</a></li>
+					<li><a href="?lang=es" class="m-r-20 text-uppercase text-light"><strong>Es</strong></a><a href="?lang=en" class="text-uppercase text-light"><strong>En</strong></a></li>
 				</ul>
 			</nav>
 		</header>
