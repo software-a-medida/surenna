@@ -99,13 +99,13 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     <section class="p-20 p-md-40" style="background-color:#f4f4ea;">
         <div class="container">
             <div class="row m-b-20 m-b-md-40">
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-20 m-b-md-0">
                     <figure class="pos-relative">
                         <img src="{$path.images}model_a.jpg" alt="Model A" class="img-cover" style="height:400px;">
                         <span class="pos-absolute p-20 text-lowercase text-light" style="right:0px;bottom:0px;background-color:#55543e;font-size:16px;">{$lang.model_a}</span>
                     </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-20 m-b-md-0">
                     <figure class="pos-relative">
                         <img src="{$path.images}model_b.jpg" alt="Model A" class="img-cover" style="height:400px;">
                         <span class="pos-absolute p-20 text-lowercase text-light" style="right:0px;bottom:0px;background-color:#55543e;font-size:16px;">{$lang.model_b}</span>
@@ -119,7 +119,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 </div>
             </div>
             <div class="row m-b-20 m-b-md-40">
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-20 m-b-md-0">
                     <h4 class="m-b-20 text-lowercase" style="font-size:24px;">{$lang.model_a}</h4>
                     <div class="pos-relative p-20" style="background-color:#ebe9dd;">
                         <figure class="pos-absolute p-20" style="top:-50px;right:0px;">
@@ -147,7 +147,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 </div>
             </div>
             <div class="row m-b-20 m-b-md-40">
-                <div class="col-md-4 order-1 order-md-2">
+                <div class="col-md-4 order-1 order-md-2 m-b-20 m-b-md-0">
                     <h4 class="m-b-20 text-lowercase" style="font-size:24px;">{$lang.model_b}</h4>
                     <div class="pos-relative p-20" style="background-color:#ebe9dd;">
                         <figure class="pos-absolute p-20" style="top:-50px;right:0px;">
@@ -175,7 +175,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-20 m-b-md-0">
                     <h4 class="m-b-20 text-lowercase" style="font-size:24px;">{$lang.model_c}</h4>
                     <div class="pos-relative p-20" style="background-color:#ebe9dd;">
                         <figure class="pos-absolute p-20" style="top:-50px;right:0px;">
@@ -262,13 +262,13 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                         <a href="{$path.images}gallery_9.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-30 m-b-md-0">
                     <figure class="pos-relative" style="height:200px;">
                         <img src="{$path.images}gallery_10.jpg" alt="Gallery" class="img-cover">
                         <a href="{$path.images}gallery_10.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
                     </figure>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-30 m-b-md-0">
                     <figure class="pos-relative" style="height:200px;">
                         <img src="{$path.images}gallery_11.jpg" alt="Gallery" class="img-cover">
                         <a href="{$path.images}gallery_11.jpg" rel="gallery" data-fancybox style="position:absolute;top:0px;right:0px;bottom:0px;left:0px;"></a>
