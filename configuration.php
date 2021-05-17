@@ -19,7 +19,7 @@ class Configuration
 	 *
      * @var string $domain
      */
-	public static $domain = 'mycompany.com';
+	public static $domain = 'surenna.mx';
 
 	/**
      * Nombre del sitio web.
@@ -28,7 +28,7 @@ class Configuration
 	 *
      * @var string $web_page
      */
-	public static $web_page = 'My Company';
+	public static $web_page = 'Surenna';
 
 	/**
      * Idioma por default
@@ -278,7 +278,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'noreply@mycompany.com';
+	public static $smtp_emailer = '';
 
 	/**
      * Variables generales.
@@ -289,13 +289,13 @@ class Configuration
      */
 	public static $vars = [
 		'contact' => [
-			'email' => 'contacto@mycompany.com',
-			'phone' => '+52 (998) 123 45 67'
+			'email' => 'info@neoterre.mx',
+			'phone' => '+52 (984) 238 75 72'
 		],
 		'rrss' => [
 			'whatsapp' => [
-				'url' => 'https://api.whatsapp.com/send?phone=+529981234567',
-				'user' => '+52 (998) 123 45 67'
+				'url' => 'https://api.whatsapp.com/send?phone=+5299842387572',
+				'user' => '+52 (984) 238 75 72'
 			],
 			'facebook' => [
 				'url' => 'https://facebook.com/',
