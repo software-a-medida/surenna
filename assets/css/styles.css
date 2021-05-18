@@ -87,25 +87,6 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
 
 /*  */
 
-/* @font-face {
-    font-family: 'Montserrat-Regular';
-    src: url("../fonts/Montserrat-Regular.ttf");
-}
-
-body * {
-    font-family: 'Montserrat-Regular' !important;
-}
-
-.fa, .far, .fas {
-    font-family: 'Font Awesome 5 Free' !important;
-}
-
-.fab {
-    font-family: 'Font Awesome 5 Brands' !important;
-} */
-
-/*  */
-
 #desktop_menu.down {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
@@ -133,4 +114,13 @@ body * {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+
+    #location {
+        height: auto !important;
+        background-image: none !important;
+        background-color: #f4f4ea !important;
+    }
 }
