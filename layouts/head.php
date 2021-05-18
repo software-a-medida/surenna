@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center" style="width:300px;height:100vh;left:-300px;background-color:#000;transition:400ms;z-index:99;">
+		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center" style="width:300px;height:100vh;left:-300px;background-color:#55543e;transition:400ms;z-index:99;">
 			<nav class="pos-absolute" style="top:20px;left:20px;">
 				<ul>
 					<li><a data-action="close_mobile_menu" class="btn btn-link btn-light"><i class="fas fa-times"></i></a></li>
