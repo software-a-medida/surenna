@@ -36,7 +36,7 @@
 						<nav>
 							<ul class="d-flex align-items-center list-unstyled">
 								<li class="m-r-15"><a href="#contact" class="text-uppercase text-light">{$lang.contact}</a></li>
-								<li class="m-r-15"><a href="#brochure" class="text-uppercase text-light">Brochure</a></li>
+								<li class="m-r-15"><a href="#brochure1" class="text-uppercase text-light">Brochure</a></li>
 								<li class="m-r-15"><a href="#about" class="text-uppercase text-light">{$lang.about_development}</a></li>
 								<li class="m-r-15"><a href="?lang=es" class="text-uppercase text-light"><strong>Es</strong></a></li>
 								<li><a href="?lang=en" class="text-uppercase text-light"><strong>En</strong></a></li>
@@ -63,7 +63,7 @@
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
 					<li class="m-b-15"><a href="#contact" class="text-uppercase text-light">{$lang.contact}</a></li>
-					<li class="m-b-15"><a href="#brochure" class="text-uppercase text-light">Brochure</a></li>
+					<li class="m-b-15"><a href="#brochure1" class="text-uppercase text-light">Brochure</a></li>
 					<li class="m-b-15"><a href="#about" class="text-uppercase text-light">{$lang.about_development}</a></li>
 					<li><a href="?lang=es" class="m-r-20 text-uppercase text-light"><strong>Es</strong></a><a href="?lang=en" class="text-uppercase text-light"><strong>En</strong></a></li>
 				</ul>

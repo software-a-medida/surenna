@@ -18,7 +18,7 @@
                         <nav>
                             <ul class="list-unstyled">
                                 <li class="m-b-5"><a href="#contact" class="text-light">{$lang.contact}</a></li>
-            					<li class="m-b-5"><a href="#brochure" class="text-light">Brochure</a></li>
+            					<li class="m-b-5"><a href="#brochure1" class="text-light">Brochure</a></li>
             					<li class="m-b-5"><a href="#about" class="text-light">{$lang.about_development}</a></li>
                                 <li><a href="/aviso-de-privacidad" class="text-light">{$lang.privacy_notice}</a></li>
                             </ul>

@@ -93,18 +93,6 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
     background-color: #55543e !important;
 }
 
-@media (max-width: 768px) {
-
-    #desktop_menu.down {
-        padding-top: 5px !important;
-        padding-bottom: 5px !important;
-    }
-
-    #mobile_menu.open {
-        left: 0px !important;
-    }
-}
-
 #contact::before,
 #about::before {
     content: '';
@@ -117,6 +105,35 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
 }
 
 @media (max-width: 768px) {
+
+    #desktop_menu.down {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    #mobile_menu.open {
+        left: 0px !important;
+    }
+
+    #contact h1,
+    #brochure1 h3,
+    #brochure2 h3,
+    #gallery h2 {
+        font-size: 38px !important;
+    }
+
+    #brochure1 h3 > span {
+        display: block;
+        font-size: 18px !important;
+    }
+
+    #models figure > img {
+        height: 100px !important;
+    }
+
+    #models figure > span {
+        font-size: 12px !important;
+    }
 
     #location {
         height: auto !important;
