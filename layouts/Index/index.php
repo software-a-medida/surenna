@@ -41,19 +41,19 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         });
         </script>
     </section>
-    <section id="brochure1" class="p-40" style="background-color:#f4f4ea;">
+    <section id="brochure1" class="p-40" style="background-color:#f7f7f0;">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-8 m-b-20 m-b-md-0">
                     <h3 class="text-center text-md-left text-uppercase" style="font-size:40px;">{$lang.presale_may_2021}</h3>
                 </div>
                 <div class="col-md-4 text-center text-md-right">
-                    <a href="{$path.images}brochure_<?php echo Session::get_value('lang'); ?>.pdf" download="Surenna.pdf" class="btn btn-b-none btn-dark text-uppercase" style="border-radius:0px;background-color:#777558;font-size:16px;">{$lang.download_brochure}</a>
+                    <a href="{$path.images}brochure_<?php echo Session::get_value('lang'); ?>.pdf" download="Surenna.pdf" class="btn btn-b-none btn-dark text-uppercase" style="border-radius:0px;background-color:#1b1700;font-size:16px;">{$lang.download_brochure}</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="p-40" style="background-color:#d2cdbf;">
+    <section class="p-40" style="background-color:#edede2;">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-4 text-center text-md-left">
@@ -86,46 +86,46 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="p-20 p-md-40" style="background-color:#f4f4ea;">
+                    <div class="p-20 p-md-40" style="background-color:#f7f7f0;">
                         <h4 class="m-b-20 text-center text-md-left text-uppercase" style="font-size:24px;">{$lang.best_international_tourism_destination}</h4>
-                        <p class="text-justify" style="font-size:16px;">{$lang.unique_community}</p>
+                        <p style="font-size:16px;">{$lang.unique_community}</p>
                     </div>
                 </div>
                 <div data-desktop class="col-md-8"></div>
             </div>
         </div>
     </section>
-    <section id="brochure2" class="p-40" style="background-color:#d2cdbf;">
+    <section id="brochure2" class="p-40" style="background-color:#edede2;">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-8 m-b-20 m-b-md-0">
                     <h3 class="text-center text-md-left text-uppercase" style="font-size:40px;"><span style="font-size:18px;">{$lang.know}</span><br>{$lang.your_next_property_in_tulum}</h3>
                 </div>
                 <div class="col-md-4 text-center text-md-right">
-                    <a href="{$path.images}brochure_<?php echo Session::get_value('lang'); ?>.pdf" download="Surenna.pdf" class="btn btn-b-none btn-dark text-uppercase" style="border-radius:0px;background-color:#777558;font-size:16px;">{$lang.download_brochure}</a>
+                    <a href="{$path.images}brochure_<?php echo Session::get_value('lang'); ?>.pdf" download="Surenna.pdf" class="btn btn-b-none btn-dark text-uppercase" style="border-radius:0px;background-color:#1b1700;font-size:16px;">{$lang.download_brochure}</a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="models" class="p-20 p-md-40" style="background-color:#f4f4ea;">
+    <section id="models" class="p-20 p-md-40" style="background-color:#f7f7f0;">
         <div class="container">
             <div class="row m-b-20 m-b-md-40">
                 <div class="col-4">
                     <figure class="pos-relative">
                         <img src="{$path.images}model_a.jpg" alt="Model A" class="img-cover" style="height:400px;">
-                        <span class="pos-absolute p-10 p-md-20 text-lowercase text-light" style="right:0px;bottom:0px;background-color:#55543e;font-size:16px;">{$lang.model_a}</span>
+                        <img src="{$path.images}a_light.png" alt="A" class="pos-absolute img-fluid" style="right:20px;bottom:20px;height:60px;">
                     </figure>
                 </div>
                 <div class="col-4">
                     <figure class="pos-relative">
                         <img src="{$path.images}model_b.jpg" alt="Model A" class="img-cover" style="height:400px;">
-                        <span class="pos-absolute p-10 p-md-20 text-lowercase text-light" style="right:0px;bottom:0px;background-color:#55543e;font-size:16px;">{$lang.model_b}</span>
+                        <img src="{$path.images}b_light.png" alt="A" class="pos-absolute img-fluid" style="right:20px;bottom:20px;height:60px;">
                     </figure>
                 </div>
                 <div class="col-4">
                     <figure class="pos-relative">
                         <img src="{$path.images}model_c.jpg" alt="Model A" class="img-cover" style="height:400px;">
-                        <span class="pos-absolute p-10 p-md-20 text-lowercase text-light" style="right:0px;bottom:0px;background-color:#55543e;font-size:16px;">{$lang.model_c}</span>
+                        <img src="{$path.images}c_light.png" alt="A" class="pos-absolute img-fluid" style="right:20px;bottom:20px;height:60px;">
                     </figure>
                 </div>
             </div>
@@ -134,7 +134,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <h4 class="m-b-20 text-lowercase" style="font-size:24px;">{$lang.model_a}</h4>
                     <div class="pos-relative p-20" style="background-color:#ebe9dd;">
                         <figure class="pos-absolute p-20" style="top:-50px;right:0px;">
-                            <img src="{$path.images}a.png" alt="Icon" class="img-fluid" style="height:100px;">
+                            <img src="{$path.images}a_dark.png" alt="Icon" class="img-fluid" style="height:100px;">
                         </figure>
                         <ul class="list-unstyled" style="font-size:16px;">
                             <li class="m-b-5"><strong>{$lang.include}</strong></li>
@@ -152,8 +152,13 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     </div>
                 </div>
                 <div class="col-md-8">
+                    <h6 class="m-b-10" style="font-size:18px;">{$lang.low_floor}</h6>
+                    <figure class="m-b-20">
+                        <img src="{$path.images}master_a_1.png" alt="Master A" class="img-cover">
+                    </figure>
+                    <h6 class="m-b-10" style="font-size:18px;">{$lang.high_floor}</h6>
                     <figure>
-                        <img src="{$path.images}master_a.png" alt="Master A" class="img-cover">
+                        <img src="{$path.images}master_a_2.png" alt="Master A" class="img-cover">
                     </figure>
                 </div>
             </div>
@@ -162,7 +167,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <h4 class="m-b-20 text-lowercase" style="font-size:24px;">{$lang.model_b}</h4>
                     <div class="pos-relative p-20" style="background-color:#ebe9dd;">
                         <figure class="pos-absolute p-20" style="top:-50px;right:0px;">
-                            <img src="{$path.images}b.png" alt="Icon" class="img-fluid" style="height:100px;">
+                            <img src="{$path.images}b_dark.png" alt="Icon" class="img-fluid" style="height:100px;">
                         </figure>
                         <ul class="list-unstyled" style="font-size:16px;">
                             <li class="m-b-5"><strong>{$lang.include}</strong></li>
@@ -180,8 +185,13 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     </div>
                 </div>
                 <div class="col-md-8 order-2 order-md-1">
+                    <h6 class="m-b-10" style="font-size:18px;">{$lang.low_floor}</h6>
+                    <figure class="m-b-20">
+                        <img src="{$path.images}master_b_1.png" alt="Master B" class="img-cover">
+                    </figure>
+                    <h6 class="m-b-10" style="font-size:18px;">{$lang.high_floor}</h6>
                     <figure>
-                        <img src="{$path.images}master_b.png" alt="Master B" class="img-cover">
+                        <img src="{$path.images}master_b_2.png" alt="Master B" class="img-cover">
                     </figure>
                 </div>
             </div>
@@ -190,7 +200,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <h4 class="m-b-20 text-lowercase" style="font-size:24px;">{$lang.model_c}</h4>
                     <div class="pos-relative p-20" style="background-color:#ebe9dd;">
                         <figure class="pos-absolute p-20" style="top:-50px;right:0px;">
-                            <img src="{$path.images}c.png" alt="Icon" class="img-fluid" style="height:100px;">
+                            <img src="{$path.images}c_dark.png" alt="Icon" class="img-fluid" style="height:100px;">
                         </figure>
                         <ul class="list-unstyled" style="font-size:16px;">
                             <li class="m-b-5"><strong>{$lang.include}</strong></li>
@@ -208,14 +218,19 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     </div>
                 </div>
                 <div class="col-md-8">
+                    <h6 class="m-b-10" style="font-size:18px;">{$lang.low_floor}</h6>
+                    <figure class="m-b-20">
+                        <img src="{$path.images}master_c_1.png" alt="Master C" class="img-cover">
+                    </figure>
+                    <h6 class="m-b-10" style="font-size:18px;">{$lang.high_floor}</h6>
                     <figure>
-                        <img src="{$path.images}master_c.png" alt="Master C" class="img-cover">
+                        <img src="{$path.images}master_c_2.png" alt="Master C" class="img-cover">
                     </figure>
                 </div>
             </div>
         </div>
     </section>
-    <section id="gallery" class="p-40" style="background-color:#d2cdbf;">
+    <section id="gallery" class="p-40" style="background-color:#edede2;">
         <div class="container">
             <h2 class="m-b-20 m-b-md-40 text-center text-uppercase" style="font-size:40px;">{$lang.gallery}</h2>
             <div class="row">
@@ -294,7 +309,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             </div>
         </div>
     </section>
-    <section class="p-40 p-md-20" style="background-color:#55543e;">
+    <section class="p-40 p-md-20" style="background-color:#1b1700;">
         <div class="container">
             <p class="text-center text-uppercase text-light" style="font-size:24px;">{$lang.12_months_of_financing}</p>
         </div>
@@ -305,15 +320,15 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 <div data-desktop class="col-8"></div>
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <h4 class="m-b-20 text-center text-md-left text-uppercase" style="font-size:24px;">{$lang.location}</h4>
-                    <p class="m-b-20 text-justify" style="font-size:16px;">{$lang.located_in_tulum_heart}</p>
+                    <p class="m-b-20" style="font-size:16px;">{$lang.located_in_tulum_heart}</p>
                     <h6 style="font-size:14px;">{$lang.tulum_center} - 2 min</h6>
-                    <progress value="10" max="100" class="m-b-10" style="width:100%;"></progress>
+                    <progress value="10" max="100" class="m-b-10" style="width:100%;background:#1B1700;"></progress>
                     <h6 style="font-size:14px;">{$lang.beach} - 10 min</h6>
-                    <progress value="30" max="100" class="m-b-10" style="width:100%;"></progress>
+                    <progress value="30" max="100" class="m-b-10" style="width:100%;background:#1B1700;"></progress>
                     <h6 style="font-size:14px;">{$lang.archeologic_zone} - 10 min</h6>
-                    <progress value="30" max="100" class="m-b-10" style="width:100%;"></progress>
+                    <progress value="30" max="100" class="m-b-10" style="width:100%;background:#1B1700;"></progress>
                     <h6 style="font-size:14px;">Playa del Carmen - 50 min</h6>
-                    <progress value="80" max="100" class="m-b-10" style="width:100%;"></progress>
+                    <progress value="80" max="100" class="m-b-10" style="width:100%;background:#1B1700;"></progress>
                 </div>
                 <div data-mobile-block class="col-12">
                     <figure>
@@ -323,17 +338,22 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             </div>
         </div>
     </section>
-    <section class="p-40 p-md-20" style="background-color:#d2cdbf;">
+    <section class="p-40 p-md-20" style="background-color:#edede2;">
         <div class="container">
             <p class="text-center text-uppercase" style="font-size:24px;">{$lang.houses_from}</p>
         </div>
     </section>
-    <section class="pos-relative d-flex align-items-center" style="height:100vh;background-position:center;background-repeat:no-repeat;background-image:url('{$path.images}3d.jpg');background-size:cover;"></section>
-    <section class="p-40" style="background-color:#f4f4ea;">
+    <section id="threed" class="pos-relative d-flex align-items-center" style="height:100vh;background-position:center;background-repeat:no-repeat;background-image:url('{$path.images}threed.jpg');background-size:cover;">
+        <div class="container d-flex align-items-center justify-content-center ">
+            <a href="https://kuula.co/post/7vXpL" target="_blank" class="btn btn-dark m-r-0 m-r-md-10" style="background:none;border-color:#fff;">{$lang.go_3d_low_floor}</a>
+            <a href="https://kuula.co/post/7vXp4" target="_blank" class="btn btn-dark m-l-0 m-l-md-10" style="background:none;border-color:#fff;">{$lang.go_3d_high_floor}</a>
+        </div>
+    </section>
+    <section class="p-40" style="background-color:#f7f7f0;">
         <div class="container d-flex align-items-center justify-content-center flex-column">
             <a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" class="text-dark" style="font-size:16px;">{$lang.email}: <?php echo Configuration::$vars['contact']['email']; ?></a>
             <a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" class="m-b-20 text-dark" style="font-size:16px;">{$lang.phone}: <?php echo Configuration::$vars['contact']['phone']; ?></a>
-            <a href="#contact" class="btn btn-dark text-uppercase" style="width:100%;max-width:400px;border-radius:0px;background-color:#55543e;font-size:16px;">{$lang.contact}</a>
+            <a href="#contact" class="btn btn-dark text-uppercase" style="width:100%;max-width:400px;border-radius:0px;background-color:#1b1700;font-size:16px;">{$lang.contact}</a>
         </div>
     </section>
 </main>

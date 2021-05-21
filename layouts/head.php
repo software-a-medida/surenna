@@ -13,7 +13,7 @@
 		<meta name="description" content="" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="{$path.css}styles.css?v=1.1" type="text/css" media="all" />
+		<link rel="stylesheet" href="{$path.css}styles.css?v=1.2" type="text/css" media="all" />
 		{$dependencies.css}
 	</head>
 	<body>
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center" style="width:300px;height:100vh;left:-300px;background-color:#55543e;transition:400ms;z-index:99;">
+		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center" style="width:300px;height:100vh;left:-300px;background-color:#1b1700;transition:400ms;z-index:99;">
 			<nav class="pos-absolute" style="top:20px;left:20px;">
 				<ul>
 					<li><a data-action="close_mobile_menu" class="btn btn-link btn-light"><i class="fas fa-times"></i></a></li>

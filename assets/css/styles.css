@@ -87,14 +87,34 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
 
 /*  */
 
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+body * {
+    font-family: 'Montserrat-Regular' !important;
+}
+
+.fa, .far, .fas {
+    font-family: 'Font Awesome 5 Free' !important;
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands' !important;
+}
+
+/*  */
+
 #desktop_menu.down {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-    background-color: #55543e !important;
+    background-color: #1b1700 !important;
 }
 
 #contact::before,
-#about::before {
+#about::before,
+#threed::before {
     content: '';
     position: absolute;
     top: 0px;
@@ -127,17 +147,19 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
         font-size: 18px !important;
     }
 
-    #models figure > img {
+    #models figure > img:first-child {
         height: 100px !important;
     }
 
-    #models figure > span {
-        font-size: 12px !important;
+    #models figure > img:last-child {
+        right: 10px !important;
+        bottom: 10px !important;
+        height: 30px !important;
     }
 
     #location {
         height: auto !important;
         background-image: none !important;
-        background-color: #f4f4ea !important;
+        background-color: #f7f7f0 !important;
     }
 }
