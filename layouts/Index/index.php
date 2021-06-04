@@ -21,9 +21,9 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
                     <script>
                       hbspt.forms.create({
-                    	region: "na1",
-                    	portalId: "7235449",
-                    	formId: "e1bd5991-c001-4bc3-9639-7c95a35264eb"
+                        region: "na1",
+                        portalId: "7235449",
+                        formId: "19da0120-99b8-4841-96a4-7225cd506714"
                     });
                     </script>
                 </div>
