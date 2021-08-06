@@ -7,9 +7,9 @@
                         <h6 class="m-b-5 text-uppercase text-light">{$lang.contact}</h6>
                         <nav>
                             <ul class="list-unstyled">
-                                <li class="m-b-5"><a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" target="_blank" class="text-light"><i class="fas fa-envelope m-r-5"></i><?php echo Configuration::$vars['contact']['email']; ?></a></li>
-                                <li class="m-b-5"><a href="tel:<?php echo Configuration::$vars['contact']['phone']; ?>" target="_blank" class="text-light"><i class="fas fa-phone m-r-5"></i><?php echo Configuration::$vars['contact']['phone']; ?></a></li>
-                                <li><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="text-light"><i class="fab fa-whatsapp m-r-5"></i><?php echo Configuration::$vars['rrss']['whatsapp']['user']; ?></a></li>
+                                <li class="m-b-5"><a href="mailto:<?= ( isset($data["email"]) && !empty($data["email"]) ) ? $data["email"] : Configuration::$vars['contact']['email'] ?>" target="_blank" class="text-light"><i class="fas fa-envelope m-r-5"></i><?= ( isset($data["email"]) && !empty($data["email"]) ) ? $data["email"] : Configuration::$vars['contact']['email'] ?></a></li>
+                                <li class="m-b-5"><a href="tel:<?= ( isset($data["phone"]) && !empty($data["phone"]) ) ? $data["phone"] : Configuration::$vars['contact']['phone'] ?>" target="_blank" class="text-light"><i class="fas fa-phone m-r-5"></i><?= ( isset($data["phone"]) && !empty($data["phone"]) ) ? $data["phone"] : Configuration::$vars['contact']['phone'] ?></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=<?= ( isset($data["phone"]) && !empty($data["phone"]) ) ? str_replace(' ', '', $data["phone"]) : str_replace(' ', '', Configuration::$vars['rrss']['whatsapp']['user']) ?>" target="_blank" class="text-light"><i class="fab fa-whatsapp m-r-5"></i><?= ( isset($data["phone"]) && !empty($data["phone"]) ) ? $data["phone"] : Configuration::$vars['rrss']['whatsapp']['user'] ?></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -30,7 +30,7 @@
                         </figure>
                     </div>
                 </div>
-                <p class="text-light">Copyright © 2021 <strong><?php echo Configuration::$web_page; ?></strong> <i data-desktop class="fas fa-heart" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-light"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
+                <p class="text-light">Copyright © 2021 <strong><?= Configuration::$web_page; ?></strong> <i data-desktop class="fas fa-heart" style="color:#f44336;"></i><br data-mobile-block> {$lang.website} {$lang.design_by} <a href="https://api.whatsapp.com/send?phone=+5491131952288" target="_blank" class="text-light"><strong>Kuro Partners</strong></a> <br data-mobile-block> & {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank" class="text-light"><strong>Code Monkey</strong></a></p>
             </div>
         </footer>
         <script src="{$path.js}jquery-3.4.1.min.js"></script>

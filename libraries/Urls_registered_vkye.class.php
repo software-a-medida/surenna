@@ -13,6 +13,10 @@ class Urls_registered_vkye
                 'controller' => 'Index',
                 'method' => 'index'
             ],
+			'/claudio' => [
+                'controller' => 'Index',
+                'method' => 'claudio'
+            ],
             '/aviso-de-privacidad' => [
                 'controller' => 'Index',
                 'method' => 'privacy_notice'

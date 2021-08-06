@@ -351,8 +351,8 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     </section>
     <section class="p-40" style="background-color:#f7f7f0;">
         <div class="container d-flex align-items-center justify-content-center flex-column">
-            <a href="mailto:<?php echo Configuration::$vars['contact']['email']; ?>" class="text-dark" style="font-size:16px;">{$lang.email}: <?php echo Configuration::$vars['contact']['email']; ?></a>
-            <a href="tel:+5219841284265" class="m-b-20 text-dark" style="font-size:16px;">{$lang.phone}: +52 1 984 128 4265</a>
+            <a href="mailto:<?= $data['email'] ?>" class="text-dark" style="font-size:16px;">{$lang.email}: <?= $data['email'] ?></a>
+            <a href="tel:+5219841284265" class="m-b-20 text-dark" style="font-size:16px;">{$lang.phone}: <?= $data['phone'] ?></a>
             <a href="#contact" class="btn btn-dark text-uppercase" style="width:100%;max-width:400px;border-radius:0px;background-color:#1b1700;font-size:16px;">{$lang.contact}</a>
         </div>
     </section>
